@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Signup Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <div class="container">
+    <h1>Signup Form</h1>
+
+    <form id="signup-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name..." required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email..." required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password..." required>
+
+      <div class="buttons">
+        <button type="submit" class="submit-btn">Submit</button>
+        <button type="button" class="reset-btn" id="reset-btn">Reset</button>
+      </div>
+    </form>
+
+    <div id="result" class="result" style="display: none;">
+      <h2>Submitted Data:</h2>
+      <p id="displayName"></p>
+      <p id="displayEmail"></p>
+      <p id="displayPassword"></p>
+    </div>
+  </div> -->
+<hr>
+
+
+
+<!-- 2. Suppose in your webpage there is content area in which you have entered your item details, but user can only see some details on first look.
+ When user clicks on “Read more” button, full detail of that particular item will be displayed.  -->
+
+<!-- <div class="details">
+  <p>
+      This is the initial part of the content. 
+      <span id="extraContent">Here is the additional content that becomes visible when you click "Read more".</span>
+  </p>
+  <button id="readMoreBtn">Read more</button>
+</div> -->
+
+<hr>
+
+<!-- 3. In previous assignment you have created a tabular data using javascript. Let’s modify that.
+ Create a form which takes student’s details and show each student detail in table. Each row of table must contain a delete button and an edit button.
+ On click on delete button entire row should be deleted. On click on edit button, a hidden form will appear with the values of that row.   -->
+
+<h1>Student Details Form</h1>
+<form id="studentForm">
+    <label>Name: <input type="text" id="name" required></label><br>
+    <label>Age: <input type="number" id="age" required></label><br>
+    <label>Class: <input type="text" id="class" required></label><br>
+    <button type="submit">Add Student</button>
+</form>
+
+<table id="studentTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<form id="editForm">
+    <h3>Edit Student Details</h3>
+    <label>Name: <input type="text" id="editName" required></label><br>
+    <label>Age: <input type="number" id="editAge" required></label><br>
+    <label>Class: <input type="text" id="editClass" required></label><br>
+    <button type="submit">Update Student</button>
+</form>
+
+
+<script src="script.js"></script>
+</body>
+</html>

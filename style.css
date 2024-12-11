@@ -1,0 +1,141 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+
+  .reset-btn {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .reset-btn:hover {
+    background-color: #e53935;
+  }
+
+  .result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .result h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .result p {
+    margin: 5px 0;
+    color: #555;
+  } */
+
+
+  /* .details{
+    border: 2px solid black;
+    height: 130px;
+    width: 300px;
+    font-size: 1.1rem;
+  }
+.details button{
+  width: 150px;
+  height: 30px;
+  background: #000;
+  color: white;
+  font-weight: 700;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  cursor: pointer;
+  
+}
+  #extraContent {
+    display: none; 
+} */
+
+
+
+/* 3. In previous assignment you have created a tabular data using javascript.
+ Let’s modify that. Create a form which takes student’s details and show each student detail in table. Each row of table must contain a delete button and an edit button. 
+On click on delete button entire row should be deleted. On click on edit button, a hidden form will appear with the values of that row.  */
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+#editForm {
+  display: none;
+  margin-top: 20px;
+}
